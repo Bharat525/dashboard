@@ -1,0 +1,2 @@
+
+81eaf72caeaf28f237accff91414632366a8908f	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/is-glob/-/is-glob-2.0.1.tgz","integrity":"sha1-0Jb5JqPe1WAPP9/ZEZjLCIjC2GM=","time":1628656717269,"size":2485,"metadata":{"url":"https://registry.npmjs.org/is-glob/-/is-glob-2.0.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:35 GMT","etag":"\"094686a7618e52db5f126af328da6aff\"","last-modified":"Sun, 27 May 2018 04:59:04 GMT","vary":"Accept-Encoding"}}}

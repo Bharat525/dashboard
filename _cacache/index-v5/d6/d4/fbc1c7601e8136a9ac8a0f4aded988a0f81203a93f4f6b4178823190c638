@@ -1,0 +1,2 @@
+
+6fc411602fad62827e6b4099cfdb59eeb68271fa	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/yargs/-/yargs-7.0.2.tgz","integrity":"sha1-EVuX3xMhgj6Lhkjolox4JSEiH2c=","time":1628656722185,"size":69923,"metadata":{"url":"https://registry.npmjs.org/yargs/-/yargs-7.0.2.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:40 GMT","etag":"\"e687f0e15508a716a4fee6c5e5dcf034\"","last-modified":"Sun, 27 May 2018 22:36:06 GMT","vary":"Accept-Encoding"}}}

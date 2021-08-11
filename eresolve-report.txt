@@ -1,0 +1,766 @@
+# npm resolution error report
+
+2021-08-11T04:41:44.735Z
+
+Found: type-fest@0.21.3
+node_modules/type-fest
+  type-fest@"^0.21.3" from ansi-escapes@4.3.2
+  node_modules/ansi-escapes
+    ansi-escapes@"^4.2.1" from @jest/core@26.6.3
+    node_modules/@jest/core
+      @jest/core@"^26.6.0" from jest@26.6.0
+      node_modules/jest
+        peer jest@"^26.0.0" from jest-watch-typeahead@0.6.1
+        node_modules/jest-watch-typeahead
+          jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+          node_modules/react-scripts
+            react-scripts@"4.0.3" from the root project
+        jest@"26.6.0" from react-scripts@4.0.3
+        node_modules/react-scripts
+          react-scripts@"4.0.3" from the root project
+      @jest/core@"^26.6.3" from jest-cli@26.6.3
+      node_modules/jest-cli
+        jest-cli@"^26.6.0" from jest@26.6.0
+        node_modules/jest
+          peer jest@"^26.0.0" from jest-watch-typeahead@0.6.1
+          node_modules/jest-watch-typeahead
+            jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+            node_modules/react-scripts
+              react-scripts@"4.0.3" from the root project
+          jest@"26.6.0" from react-scripts@4.0.3
+          node_modules/react-scripts
+            react-scripts@"4.0.3" from the root project
+    ansi-escapes@"^4.3.1" from jest-watch-typeahead@0.6.1
+    node_modules/jest-watch-typeahead
+      jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+      node_modules/react-scripts
+        react-scripts@"4.0.3" from the root project
+    ansi-escapes@"^4.2.1" from jest-watcher@26.6.2
+    node_modules/jest-watcher
+      jest-watcher@"^26.6.2" from @jest/core@26.6.3
+      node_modules/@jest/core
+        @jest/core@"^26.6.0" from jest@26.6.0
+        node_modules/jest
+          peer jest@"^26.0.0" from jest-watch-typeahead@0.6.1
+          node_modules/jest-watch-typeahead
+            jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+            node_modules/react-scripts
+              react-scripts@"4.0.3" from the root project
+          jest@"26.6.0" from react-scripts@4.0.3
+          node_modules/react-scripts
+            react-scripts@"4.0.3" from the root project
+        @jest/core@"^26.6.3" from jest-cli@26.6.3
+        node_modules/jest-cli
+          jest-cli@"^26.6.0" from jest@26.6.0
+          node_modules/jest
+            peer jest@"^26.0.0" from jest-watch-typeahead@0.6.1
+            node_modules/jest-watch-typeahead
+              jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+              node_modules/react-scripts
+                react-scripts@"4.0.3" from the root project
+            jest@"26.6.0" from react-scripts@4.0.3
+            node_modules/react-scripts
+              react-scripts@"4.0.3" from the root project
+      jest-watcher@"^26.3.0" from jest-watch-typeahead@0.6.1
+      node_modules/jest-watch-typeahead
+        jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+        node_modules/react-scripts
+          react-scripts@"4.0.3" from the root project
+    ansi-escapes@"^4.2.1" from terminal-link@2.1.1
+    node_modules/terminal-link
+      terminal-link@"^2.0.0" from @jest/reporters@26.6.2
+      node_modules/@jest/reporters
+        @jest/reporters@"^26.6.2" from @jest/core@26.6.3
+        node_modules/@jest/core
+          @jest/core@"^26.6.0" from jest@26.6.0
+          node_modules/jest
+            peer jest@"^26.0.0" from jest-watch-typeahead@0.6.1
+            node_modules/jest-watch-typeahead
+              jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+              node_modules/react-scripts
+                react-scripts@"4.0.3" from the root project
+            jest@"26.6.0" from react-scripts@4.0.3
+            node_modules/react-scripts
+              react-scripts@"4.0.3" from the root project
+          @jest/core@"^26.6.3" from jest-cli@26.6.3
+          node_modules/jest-cli
+            jest-cli@"^26.6.0" from jest@26.6.0
+            node_modules/jest
+              peer jest@"^26.0.0" from jest-watch-typeahead@0.6.1
+              node_modules/jest-watch-typeahead
+                jest-watch-typeahead@"0.6.1" from react-scripts@4.0.3
+                node_modules/react-scripts
+                  react-scripts@"4.0.3" from the root project
+              jest@"26.6.0" from react-scripts@4.0.3
+              node_modules/react-scripts
+                react-scripts@"4.0.3" from the root project
+
+Could not resolve dependency:
+peerOptional type-fest@"^0.13.1" from @pmmmwh/react-refresh-webpack-plugin@0.4.3
+node_modules/@pmmmwh/react-refresh-webpack-plugin
+  @pmmmwh/react-refresh-webpack-plugin@"0.4.3" from react-scripts@4.0.3
+  node_modules/react-scripts
+    react-scripts@"4.0.3" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "type-fest",
+    "version": "0.21.3",
+    "location": "node_modules/type-fest",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "type-fest",
+        "spec": "^0.21.3",
+        "from": {
+          "name": "ansi-escapes",
+          "version": "4.3.2",
+          "location": "node_modules/ansi-escapes",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "ansi-escapes",
+              "spec": "^4.2.1",
+              "from": {
+                "name": "@jest/core",
+                "version": "26.6.3",
+                "location": "node_modules/@jest/core",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@jest/core",
+                    "spec": "^26.6.0",
+                    "from": {
+                      "name": "jest",
+                      "version": "26.6.0",
+                      "location": "node_modules/jest",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "jest",
+                          "spec": "^26.0.0",
+                          "from": {
+                            "name": "jest-watch-typeahead",
+                            "version": "0.6.1",
+                            "location": "node_modules/jest-watch-typeahead",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "jest-watch-typeahead",
+                                "spec": "0.6.1",
+                                "from": {
+                                  "name": "react-scripts",
+                                  "version": "4.0.3",
+                                  "location": "node_modules/react-scripts",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "react-scripts",
+                                      "spec": "4.0.3",
+                                      "from": {
+                                        "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "jest",
+                          "spec": "26.6.0",
+                          "from": {
+                            "name": "react-scripts",
+                            "version": "4.0.3",
+                            "location": "node_modules/react-scripts",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "react-scripts",
+                                "spec": "4.0.3",
+                                "from": {
+                                  "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@jest/core",
+                    "spec": "^26.6.3",
+                    "from": {
+                      "name": "jest-cli",
+                      "version": "26.6.3",
+                      "location": "node_modules/jest-cli",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "jest-cli",
+                          "spec": "^26.6.0",
+                          "from": {
+                            "name": "jest",
+                            "version": "26.6.0",
+                            "location": "node_modules/jest",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "peer",
+                                "name": "jest",
+                                "spec": "^26.0.0",
+                                "from": {
+                                  "name": "jest-watch-typeahead",
+                                  "version": "0.6.1",
+                                  "location": "node_modules/jest-watch-typeahead",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "jest-watch-typeahead",
+                                      "spec": "0.6.1",
+                                      "from": {
+                                        "name": "react-scripts",
+                                        "version": "4.0.3",
+                                        "location": "node_modules/react-scripts",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "react-scripts",
+                                            "spec": "4.0.3",
+                                            "from": {
+                                              "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "jest",
+                                "spec": "26.6.0",
+                                "from": {
+                                  "name": "react-scripts",
+                                  "version": "4.0.3",
+                                  "location": "node_modules/react-scripts",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "react-scripts",
+                                      "spec": "4.0.3",
+                                      "from": {
+                                        "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "ansi-escapes",
+              "spec": "^4.3.1",
+              "from": {
+                "name": "jest-watch-typeahead",
+                "version": "0.6.1",
+                "location": "node_modules/jest-watch-typeahead",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "jest-watch-typeahead",
+                    "spec": "0.6.1",
+                    "from": {
+                      "name": "react-scripts",
+                      "version": "4.0.3",
+                      "location": "node_modules/react-scripts",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "react-scripts",
+                          "spec": "4.0.3",
+                          "from": {
+                            "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "ansi-escapes",
+              "spec": "^4.2.1",
+              "from": {
+                "name": "jest-watcher",
+                "version": "26.6.2",
+                "location": "node_modules/jest-watcher",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "jest-watcher",
+                    "spec": "^26.6.2",
+                    "from": {
+                      "name": "@jest/core",
+                      "version": "26.6.3",
+                      "location": "node_modules/@jest/core",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@jest/core",
+                          "spec": "^26.6.0",
+                          "from": {
+                            "name": "jest",
+                            "version": "26.6.0",
+                            "location": "node_modules/jest",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "peer",
+                                "name": "jest",
+                                "spec": "^26.0.0",
+                                "from": {
+                                  "name": "jest-watch-typeahead",
+                                  "version": "0.6.1",
+                                  "location": "node_modules/jest-watch-typeahead",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "jest-watch-typeahead",
+                                      "spec": "0.6.1",
+                                      "from": {
+                                        "name": "react-scripts",
+                                        "version": "4.0.3",
+                                        "location": "node_modules/react-scripts",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "react-scripts",
+                                            "spec": "4.0.3",
+                                            "from": {
+                                              "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "jest",
+                                "spec": "26.6.0",
+                                "from": {
+                                  "name": "react-scripts",
+                                  "version": "4.0.3",
+                                  "location": "node_modules/react-scripts",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "react-scripts",
+                                      "spec": "4.0.3",
+                                      "from": {
+                                        "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@jest/core",
+                          "spec": "^26.6.3",
+                          "from": {
+                            "name": "jest-cli",
+                            "version": "26.6.3",
+                            "location": "node_modules/jest-cli",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "jest-cli",
+                                "spec": "^26.6.0",
+                                "from": {
+                                  "name": "jest",
+                                  "version": "26.6.0",
+                                  "location": "node_modules/jest",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "peer",
+                                      "name": "jest",
+                                      "spec": "^26.0.0",
+                                      "from": {
+                                        "name": "jest-watch-typeahead",
+                                        "version": "0.6.1",
+                                        "location": "node_modules/jest-watch-typeahead",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "jest-watch-typeahead",
+                                            "spec": "0.6.1",
+                                            "from": {
+                                              "name": "react-scripts",
+                                              "version": "4.0.3",
+                                              "location": "node_modules/react-scripts",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "prod",
+                                                  "name": "react-scripts",
+                                                  "spec": "4.0.3",
+                                                  "from": {
+                                                    "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "type": "prod",
+                                      "name": "jest",
+                                      "spec": "26.6.0",
+                                      "from": {
+                                        "name": "react-scripts",
+                                        "version": "4.0.3",
+                                        "location": "node_modules/react-scripts",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "react-scripts",
+                                            "spec": "4.0.3",
+                                            "from": {
+                                              "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "jest-watcher",
+                    "spec": "^26.3.0",
+                    "from": {
+                      "name": "jest-watch-typeahead",
+                      "version": "0.6.1",
+                      "location": "node_modules/jest-watch-typeahead",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "jest-watch-typeahead",
+                          "spec": "0.6.1",
+                          "from": {
+                            "name": "react-scripts",
+                            "version": "4.0.3",
+                            "location": "node_modules/react-scripts",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "react-scripts",
+                                "spec": "4.0.3",
+                                "from": {
+                                  "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "ansi-escapes",
+              "spec": "^4.2.1",
+              "from": {
+                "name": "terminal-link",
+                "version": "2.1.1",
+                "location": "node_modules/terminal-link",
+                "isWorkspace": false,
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "terminal-link",
+                    "spec": "^2.0.0",
+                    "from": {
+                      "name": "@jest/reporters",
+                      "version": "26.6.2",
+                      "location": "node_modules/@jest/reporters",
+                      "isWorkspace": false,
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@jest/reporters",
+                          "spec": "^26.6.2",
+                          "from": {
+                            "name": "@jest/core",
+                            "version": "26.6.3",
+                            "location": "node_modules/@jest/core",
+                            "isWorkspace": false,
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@jest/core",
+                                "spec": "^26.6.0",
+                                "from": {
+                                  "name": "jest",
+                                  "version": "26.6.0",
+                                  "location": "node_modules/jest",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "peer",
+                                      "name": "jest",
+                                      "spec": "^26.0.0",
+                                      "from": {
+                                        "name": "jest-watch-typeahead",
+                                        "version": "0.6.1",
+                                        "location": "node_modules/jest-watch-typeahead",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "jest-watch-typeahead",
+                                            "spec": "0.6.1",
+                                            "from": {
+                                              "name": "react-scripts",
+                                              "version": "4.0.3",
+                                              "location": "node_modules/react-scripts",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "prod",
+                                                  "name": "react-scripts",
+                                                  "spec": "4.0.3",
+                                                  "from": {
+                                                    "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "type": "prod",
+                                      "name": "jest",
+                                      "spec": "26.6.0",
+                                      "from": {
+                                        "name": "react-scripts",
+                                        "version": "4.0.3",
+                                        "location": "node_modules/react-scripts",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "prod",
+                                            "name": "react-scripts",
+                                            "spec": "4.0.3",
+                                            "from": {
+                                              "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@jest/core",
+                                "spec": "^26.6.3",
+                                "from": {
+                                  "name": "jest-cli",
+                                  "version": "26.6.3",
+                                  "location": "node_modules/jest-cli",
+                                  "isWorkspace": false,
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "jest-cli",
+                                      "spec": "^26.6.0",
+                                      "from": {
+                                        "name": "jest",
+                                        "version": "26.6.0",
+                                        "location": "node_modules/jest",
+                                        "isWorkspace": false,
+                                        "dependents": [
+                                          {
+                                            "type": "peer",
+                                            "name": "jest",
+                                            "spec": "^26.0.0",
+                                            "from": {
+                                              "name": "jest-watch-typeahead",
+                                              "version": "0.6.1",
+                                              "location": "node_modules/jest-watch-typeahead",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "prod",
+                                                  "name": "jest-watch-typeahead",
+                                                  "spec": "0.6.1",
+                                                  "from": {
+                                                    "name": "react-scripts",
+                                                    "version": "4.0.3",
+                                                    "location": "node_modules/react-scripts",
+                                                    "isWorkspace": false,
+                                                    "dependents": [
+                                                      {
+                                                        "type": "prod",
+                                                        "name": "react-scripts",
+                                                        "spec": "4.0.3",
+                                                        "from": {
+                                                          "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
+                                          {
+                                            "type": "prod",
+                                            "name": "jest",
+                                            "spec": "26.6.0",
+                                            "from": {
+                                              "name": "react-scripts",
+                                              "version": "4.0.3",
+                                              "location": "node_modules/react-scripts",
+                                              "isWorkspace": false,
+                                              "dependents": [
+                                                {
+                                                  "type": "prod",
+                                                  "name": "react-scripts",
+                                                  "spec": "4.0.3",
+                                                  "from": {
+                                                    "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "currentEdge": null,
+  "edge": {
+    "type": "peerOptional",
+    "name": "type-fest",
+    "spec": "^0.13.1",
+    "error": "INVALID",
+    "from": {
+      "name": "@pmmmwh/react-refresh-webpack-plugin",
+      "version": "0.4.3",
+      "location": "node_modules/@pmmmwh/react-refresh-webpack-plugin",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "@pmmmwh/react-refresh-webpack-plugin",
+          "spec": "0.4.3",
+          "from": {
+            "name": "react-scripts",
+            "version": "4.0.3",
+            "location": "node_modules/react-scripts",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "prod",
+                "name": "react-scripts",
+                "spec": "4.0.3",
+                "from": {
+                  "location": "C:\\Users\\Bharat\\Desktop\\dashboard"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "peerConflict": null,
+  "strictPeerDeps": false,
+  "force": false
+}

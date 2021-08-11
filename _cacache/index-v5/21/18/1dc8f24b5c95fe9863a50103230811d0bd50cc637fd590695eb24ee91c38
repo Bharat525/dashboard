@@ -1,0 +1,2 @@
+
+965567144de9f40b8667e05425a4940c043bc3f6	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/ajv/-/ajv-4.11.8.tgz","integrity":"sha1-gv+wKynmYq5TvcIK8VlHcGc5xTY=","time":1628656718116,"size":507124,"metadata":{"url":"https://registry.npmjs.org/ajv/-/ajv-4.11.8.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:27 GMT","etag":"\"b4d4521d612fd1a9c228339a1eaa98b9\"","last-modified":"Sat, 26 May 2018 16:22:19 GMT","vary":"Accept-Encoding"}}}

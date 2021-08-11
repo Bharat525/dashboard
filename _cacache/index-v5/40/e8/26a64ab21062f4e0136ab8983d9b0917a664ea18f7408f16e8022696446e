@@ -1,0 +1,2 @@
+
+5fb6fb445279d5847639961cb16e4ee75ba86b57	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/globby/-/globby-5.0.0.tgz","integrity":"sha1-69hGZ8oNuzMLmbz8aOrCvFQ3Dg0=","time":1628656721893,"size":2755,"metadata":{"url":"https://registry.npmjs.org/globby/-/globby-5.0.0.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:40 GMT","etag":"\"680ea27960d207c47b76cbc03e99de8c\"","last-modified":"Sun, 27 May 2018 02:29:45 GMT","vary":"Accept-Encoding"}}}

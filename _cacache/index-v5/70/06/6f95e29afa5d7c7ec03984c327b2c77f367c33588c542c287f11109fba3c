@@ -1,0 +1,2 @@
+
+d58adb2370d07fb532384ae3b3c8e6c6ab92349e	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/touch/-/touch-1.0.0.tgz","integrity":"sha1-RJy+LbrlqMgDjjDXH6D/RklHxN4=","time":1628656711796,"size":3695,"metadata":{"url":"https://registry.npmjs.org/touch/-/touch-1.0.0.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:30 GMT","etag":"\"cbf974ffa44363b4e2f60b270a02adbe\"","last-modified":"Sun, 27 May 2018 19:46:02 GMT","vary":"Accept-Encoding"}}}

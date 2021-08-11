@@ -1,0 +1,2 @@
+
+9f3a4949d3f816ba89a55b3ac413731af986c13d	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/fkill/-/fkill-5.0.0.tgz","integrity":"sha1-ZC90aqYxyWWvx2wNVtzEkqHuUE8=","time":1628656722905,"size":2320,"metadata":{"url":"https://registry.npmjs.org/fkill/-/fkill-5.0.0.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:41 GMT","etag":"\"eb3c6d669e66438c35948d29d4a2e7c0\"","last-modified":"Sun, 27 May 2018 00:50:41 GMT","vary":"Accept-Encoding"}}}

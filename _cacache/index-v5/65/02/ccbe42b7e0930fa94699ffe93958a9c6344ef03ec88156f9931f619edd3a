@@ -1,0 +1,2 @@
+
+010a04012d05a9248816b95d1f319764a2be1131	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/slide/-/slide-1.1.6.tgz","integrity":"sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=","time":1628656703390,"size":4392,"metadata":{"url":"https://registry.npmjs.org/slide/-/slide-1.1.6.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:22 GMT","etag":"\"e59736a1fb5539a77cabe10cdbcd3e78\"","last-modified":"Sun, 27 May 2018 17:35:06 GMT","vary":"Accept-Encoding"}}}

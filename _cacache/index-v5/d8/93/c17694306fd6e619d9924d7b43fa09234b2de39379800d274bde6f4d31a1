@@ -1,0 +1,2 @@
+
+b603155b21357801f026338a71a6d2524b3ee2ac	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/moment/-/moment-2.17.1.tgz","integrity":"sha1-/tlQYGPzaxDwZsi1mhRNf66+HYI=","time":1628656727850,"size":486182,"metadata":{"url":"https://registry.npmjs.org/moment/-/moment-2.17.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 11 Aug 2021 04:38:40 GMT","etag":"\"6d2d5c437819c2e9acde5d9622171b80\"","last-modified":"Mon, 24 Jun 2019 15:10:16 GMT","vary":"Accept-Encoding"}}}
