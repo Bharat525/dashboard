@@ -1,0 +1,92 @@
+.center {
+  width: 56%;
+  padding-top: 20px;
+  @media (max-width: 680px) {
+    width: 96%;
+    margin: auto;
+  }
+
+  h2 {
+    color: rgb(231, 114, 4);
+    position: relative;
+    right: 2rem;
+    padding: 10px;
+
+    @media (max-width: 680px) {
+      font-size: 1.1rem;
+      right: 0.8rem;
+      padding: 10px;
+    }
+  }
+
+  .dashBoard {
+    border: 1px solid;
+    height: 50%;
+    width: 30%;
+    border-radius: 20px;
+    background-color: #1f294b;
+    position: absolute;
+    top: -3rem;
+    transform: rotate(30deg);
+    z-index: -2;
+    right: 70%;
+  }
+
+  h1 {
+    padding: 1rem 1rem 2rem;
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  .assests-div {
+    margin-top: 2rem;
+    height: 40vh;
+    background-color: #1f294b;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    .galary {
+      justify-content: space-around;
+      display: flex;
+
+      overflow-x: scroll;
+    }
+  }
+
+  .img-parent {
+    align-items: center;
+    height: 20vh;
+    display: flex;
+    border-radius: 40px;
+    width: 15%;
+    padding: 40px;
+    background-color: #4c546f;
+
+    img {
+      border-radius: 10px;
+      position: relative;
+      right: 4rem;
+      width: 260px;
+      height: 150px;
+      object-fit: cover;
+    }
+    p {
+      padding: 10px;
+      background-color: #010727;
+      position: relative;
+      right: 8rem;
+      top: 2rem;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      color: white;
+    }
+  }
+}
+
+.investment-chart {
+  height: 20%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

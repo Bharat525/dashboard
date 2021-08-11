@@ -1,0 +1,31 @@
+//HERE OUR MAIN FILE OF APP.SCSS
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Raleway:wght@100&family=Zen+Loop&display=swap");
+  font-family: "Raleway", sans-serif;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 680px) {
+    flex-direction: column;
+
+    .aside {
+      display: none;
+    }
+  }
+}
+
+@import "../style/aside.scss";
+@import "../style//center.scss";
+@import "../style/right.scss";
+@import "../style/chart.scss";
